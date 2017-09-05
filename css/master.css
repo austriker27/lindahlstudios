@@ -183,7 +183,7 @@ margin: 50px auto;
 }
 
 #slide1{
-  background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+  background:url('../images/slider/1.jpg') 50% 0 no-repeat fixed;
   color: #fff;
   height: 600px;
   margin: 0;
@@ -201,7 +201,7 @@ margin: 50px auto;
 }
 
 #slide3{
-  background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
+  background: url('../images/slider/2.jpg') 50% 0 no-repeat fixed;
   color: #fff;
   height: 600px;
   padding: 170px 0 0 0;
@@ -216,7 +216,7 @@ margin: 50px auto;
 }
 
 #slide5{
-  background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
+  background: url('../images/contact-bg.jpg') 50% 0 no-repeat fixed;
   height: 200px;
   margin: 0 auto;
   padding: 250px 0;
