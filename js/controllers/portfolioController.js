@@ -3,12 +3,8 @@ var app = app || {};
 
 (function(module) {
   const projectController = {};
-  projectController.index = () => {
-    app.Project.fetchAll(app.Project.initIndexPage);
 
-    $('main > section').hide();
-    $('.projectsAnchor').show();
-  };
+  // TODO: write function to render all projects from JSON
 
   module.projectController = projectController;
 })(app);
