@@ -13,19 +13,19 @@ var $newHTML = $($compiledTemplate({
     {
       title: 'posy rae | website',
       url: `http://posyrae.com`,
-      img: `assets/imgs/mockup.png`,
+      img: `assets/imgs/posyrae-mockup.png`,
       projectDescription: `we spearheaded a website redesign on squarespace for this very talented paper florist.`
     },
     {
       title: 'moving forward leadership | website',
       url: `http://movingforwardleadership.com`,
-      img: `assets/imgs/mockup.png`,
+      img: `assets/imgs/movingforwardleadership-mockup.png`,
       projectDescription: `we designed and developed a new website with a clean, modern visual appearance and added functionality to store podcasts, show notes for podcasts and leadership articles linked in from medium.com.`
     },
     {
       title: 'fraction calculator | ios app',
       url: `https://itunes.apple.com/us/app/fraction-calculator-pro/id398107543`,
-      img: `assets/imgs/mockup.png`,
+      img: `assets/imgs/app-mockup.png`,
       projectDescription: 'we designed and developed an ios app for calculating fractions.'
     }
   ]
