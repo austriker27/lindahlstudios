@@ -4,12 +4,12 @@ let $sourceHTML = $('#projects-template').html();
 let $compiledTemplate = Handlebars.compile($sourceHTML);
 var $newHTML = $($compiledTemplate({
   project: [
-    // {
-    //   title: 'the loop network | website & app',
-    //   url: `http://theloopnetwork.io`,
-    //   img: `assets/imgs/mockup.png`,
-    //   projectDescription: `we built an online network for colleges to impliment that keeps their students updated on campus events and news. It is currently being deployed and used by over 2,000 students.`
-    // },
+    {
+      title: 'the loop network | website & app',
+      url: `#`,
+      img: `assets/imgs/mockup.png`,
+      projectDescription: `currently under development - coming soon.`
+    },
     {
       title: 'posy rae | website',
       url: `http://posyrae.com`,

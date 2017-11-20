@@ -41,8 +41,7 @@
       {{#each project}}
         <article class="project" data-category="{{ ./project }}">
            <img src=" {{ ./img }}" alt="Image of {{ ./title }} project.">
-           <h3 class="title">{{ ./title }}</h3>
-           <p><a href="{{ ./url }}"> {{ ./url }} </a></p>
+           <h3 class="title"><a target="_blank" href="{{ ./url }}"> {{ ./title }} </a></h3>
            <p>{{ ./projectDescription }}</p>
          </article>
       {{/each}}
@@ -71,6 +70,9 @@
                   <li class="col-md-2">
                     <a href="#team" class="js-btn3 scroll">the team</a>
                   </li>
+                  <li class="col-md-2">
+                    <a href="mailto: info@lindahlstudios.com" class="js-btn3">contact us</a>
+                  </li>
                 </ul>
 
             </nav>
@@ -78,8 +80,8 @@
           </div>
           <div class="row">
             <div class="col-md-offset-1 col-md-11">
-              <a href="#">
-                <h2>welcome!<span>➔</span></h2>
+              <a href="#bio-section">
+                <h2>we are lindahl studios llc<span>➔</span></h2>
               </a>
               <div class="white-block"></div>
             </div>
@@ -131,7 +133,7 @@
 
           <div class="row">
             <div class="col-md-offset-1 col-md-5">
-              <div class="bio-section">
+              <div class="bio-section"  id="bio-section">
                 we are a two man design &amp; development shop <br>
                 that builds clean, modern websites and ios apps.<br><br>
                 check out our recent projects!
