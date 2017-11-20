@@ -376,7 +376,7 @@ a.dam:visited {
 /*----------------------------------
   Medium devices: iPad vertical
 ------------------------------------*/
-
+/*
 @media (max-width: 991px) {
   .project {
     width: initial;
@@ -389,7 +389,7 @@ a.dam:visited {
     width: 100vw;
   }
 
-}
+}*/
 
 
 
