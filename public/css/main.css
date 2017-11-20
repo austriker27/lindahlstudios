@@ -373,8 +373,8 @@ a.dam:visited {
   mobile devices
 ------------------------------------*/
 
-@media only screen and (min-width: 600px) {
-  .project {
+@media only screen and (min-width: 600vw) {
+  /*.project {
     width: 100%;
   }
 
