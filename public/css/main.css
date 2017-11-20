@@ -369,63 +369,20 @@ a.dam:visited {
 
 
 
-
-
-
-
 /*----------------------------------
-  Medium devices: iPad vertical
+  mobile devices
 ------------------------------------*/
+
+@media only screen and (min-width: 600px) {
+  .project {
+    width: 100%;
+  }
+
+  .project img {
+    height: 500px;
+  }
 /*
-@media (max-width: 991px) {
-  .project {
-    width: initial;
-  }
-  .project img {
-    height: 500px;
-  }
-
   .main {
-    width: 100vw;
-  }
-
-}*/
-
-
-
-/*----------------------------------
-  Small devices: iPhone 6+ and below
-------------------------------------*/
-
-@media (max-width: 767px) {
-  .project {
-    width: initial;
-  }
-
-  .project img {
-    height: 500px;
-  }
-
-  .main {
-    width: 100vw;
-  }
-}
-
-
-/*----------------------------------
-  iPhone 6 & 6+ specific text bump
-------------------------------------*/
-
-@media (max-width: 991px) and (max-height: 736px) and (min-height: 481px) {
-  .project {
-    width: initial;
-  }
-  .project img {
-    height: 500px;
-  }
-
-  .main {
-    width: 100vw;
-  }
-
+    width: 100%;
+  }*/
 }
