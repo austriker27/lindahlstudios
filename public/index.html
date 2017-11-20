@@ -41,8 +41,7 @@
       {{#each project}}
         <article class="project" data-category="{{ ./project }}">
            <img src=" {{ ./img }}" alt="Image of {{ ./title }} project.">
-           <h3 class="title">{{ ./title }}</h3>
-           <p><a href="{{ ./url }}"> {{ ./url }} </a></p>
+           <h3 class="title"><a target="_blank" href="{{ ./url }}"> {{ ./title }} </a></h3>
            <p>{{ ./projectDescription }}</p>
          </article>
       {{/each}}
