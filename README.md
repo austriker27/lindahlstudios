@@ -1,47 +1,45 @@
-# Project Title
+# Fresh Landing page
+Fresh is a one page landing page starter built by [Css Ninja Studio](https://cssninja.io) . Fresh is licensed under the MIT license.
 
-This is a one page website for our little two man website and app shop. We build and ship websites for our clients and wanted a site to show off what we've done, because what kind of website development agency doesn't have their own website? We design and develop solutions for our clients.
+You can access the demo [here](https://cssninjastudio.github.io./).
 
-## Getting Started
+## Details
 
-Uhm basically just go to our [site](https://lindahlstudios.com) to check it out! Simple and fun!
+Fresh is developed with the [Bulma css framework](https://bulma.io)
 
-### Prerequisites
+**Version 2.0**
 
-A computer, live internet connection and probably a modern browser not named IE.
+## Usage
+Fresh is now a Bulma starter fully bundled with **npm** and **gulp**. Bulma has been upgrade to latest version **0.7**.
 
-### Design Influence
+* Clone or download the repo
+* Run `npm install`
+* Run `gulp build`
+* Run `gulp default`
 
-The site is heavily based rellax, a lightweight vanilla javascript parallax library, developed by [dixon and moe](dixonandmoe.com/rellax).
+## Major changes
 
-## Built With
+* Everything is now handled by gulp and npm
+* Bulma version upgraded to 0.7
+* Bulma source sass is editable (note that the `@widescreen` variable has been set to false)
+* Panel slider library has been removed. Sidebar completely rewritten without any plugin.
+* Removed unused classes and refactored scss
+* Added more scss partials for better code maintainability
+* Introduced Panini templating engine. Learn more about Panini here: https://github.com/zurb/panini
+* Fully automated build and watch process, integration with browser sync
+* Navbar rework since deprecation of `.nav` element in favor of `.navbar`.
+* Optimized responsive display for mobile and tablets.
 
-* [Atom](http://www.atom.io/) - The web framework used
-* [Apple](https://apple.com/) - Computers used in development
-* [Rellax](https://rometools.github.io/rome/) - The parallax library used
-* [Bootstrap](https://getbootstrap.com) - Bootstrap CSS Framework
+## Issues
 
+If you've found an issue or a bug, you can report it in the issues section of this repository. Please try to follow these simple guidelines to report your issue:
 
-## Contributing
+* Issue definition
+* Expected behaviour
+* Actual behaviour
+* steps to reproduce
+* Already tried fixes (if relevant)
 
-Made a fork if you wish and submit a PR if you want to make any edits!
+## More
 
-## Versioning
-
-We use [Github](http://github.com/) for versioning.
-
-## Authors
-
-* **David Lindahl** - *Initial work* - [David](https://github.com/austriker27)
-* **Michael Lindahl** - *Initial work* - [Michael](https://github.com/michaellidahl)
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Of course big shout out to Dixon and Moe for their really neat rellax parallax library.
-* Honey Crisp apples, the constant fuel and energy for David.
-* etc
+You can find more themes and ressources at  [Css Ninja Studio](https://cssninja.io).
