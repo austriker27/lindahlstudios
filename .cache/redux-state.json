@@ -1,0 +1,2251 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "88186a56aa56545250ec2990ec3475ea",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e680a4b7bdac79f81d15e69c85d291ae",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8a1af836aa580cc2aa97e7901fffe93a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "113a9dc4157ffa44b114b356b446eb0b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "32a6702b86727506d9372710b5c2d829",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c19b04005a3cbb8cb3bb43a13ab21c85",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.39",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "images",
+        "path": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.39",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "better-queue",
+            "version": "^3.8.7"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.250"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "63a715c26bb5d887521030ebad482860",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.44",
+      "pluginOptions": {
+        "plugins": [
+          {
+            "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-remark-images",
+            "id": "Plugin gatsby-remark-images",
+            "name": "gatsby-remark-images",
+            "version": "1.5.67",
+            "pluginOptions": {
+              "plugins": [],
+              "maxWidth": 630,
+              "wrapperStyle": "",
+              "backgroundColor": "white",
+              "linkImagesToOriginal": true,
+              "showCaptions": false,
+              "pathPrefix": ""
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-remark-images"
+          },
+          {
+            "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-remark-copy-linked-files",
+            "id": "Plugin gatsby-remark-copy-linked-files",
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "1.5.37",
+            "pluginOptions": {
+              "plugins": [],
+              "ignoreFileExtensions": [
+                "png",
+                "jpg",
+                "jpeg",
+                "bmp",
+                "tiff"
+              ]
+            },
+            "nodeAPIs": [],
+            "browserAPIs": [],
+            "ssrAPIs": [],
+            "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-remark-copy-linked-files"
+          }
+        ]
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.44",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "0f1c0907c683789d855fb7f0e0e4ed9f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-images": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-remark-images",
+      "id": "Plugin gatsby-remark-images",
+      "name": "gatsby-remark-images",
+      "version": "1.5.67",
+      "pluginOptions": {
+        "plugins": [],
+        "maxWidth": 630,
+        "wrapperStyle": "",
+        "backgroundColor": "white",
+        "linkImagesToOriginal": true,
+        "showCaptions": false,
+        "pathPrefix": ""
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-remark-images",
+      "packageJson": {
+        "name": "gatsby-remark-images",
+        "description": "Processes images in markdown so they can be used in the production build.",
+        "version": "1.5.67",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "markdown",
+          "remark",
+          "responsive images"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.48"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b1ff9adc3d58bb6956e3ac66f4af0579",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-remark-copy-linked-files": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-remark-copy-linked-files",
+      "id": "Plugin gatsby-remark-copy-linked-files",
+      "name": "gatsby-remark-copy-linked-files",
+      "version": "1.5.37",
+      "pluginOptions": {
+        "plugins": [],
+        "ignoreFileExtensions": [
+          "png",
+          "jpg",
+          "jpeg",
+          "bmp",
+          "tiff"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-remark-copy-linked-files",
+      "packageJson": {
+        "name": "gatsby-remark-copy-linked-files",
+        "description": "Find files which are linked to from markdown and copy them to the public directory",
+        "version": "1.5.37",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "prismjs",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cheerio",
+            "version": "^1.0.0-rc.2"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "is-relative-url",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "path-is-inside",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f4b621d0349091ccee635387c2371e08",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-sharp": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-transformer-sharp",
+      "id": "Plugin gatsby-transformer-sharp",
+      "name": "gatsby-transformer-sharp",
+      "version": "1.6.27",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType",
+        "onPreExtractQueries"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-transformer-sharp",
+      "packageJson": {
+        "name": "gatsby-transformer-sharp",
+        "description": "Gatsby transformer plugin for images using Sharp",
+        "version": "1.6.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "932259b95a2d7d9b35755f8c4cbc0cdc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sharp": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-plugin-sharp",
+      "id": "Plugin gatsby-plugin-sharp",
+      "name": "gatsby-plugin-sharp",
+      "version": "1.6.48",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-plugin-sharp",
+      "packageJson": {
+        "name": "gatsby-plugin-sharp",
+        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
+        "version": "1.6.48",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "image",
+          "sharp"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "async",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "imagemin",
+            "version": "^5.2.2"
+          },
+          {
+            "name": "imagemin-pngquant",
+            "version": "5.0.1"
+          },
+          {
+            "name": "imagemin-webp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mini-svg-data-uri",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "potrace",
+            "version": "^2.1.1"
+          },
+          {
+            "name": "probe-image-size",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "progress",
+            "version": "^1.1.8"
+          },
+          {
+            "name": "sharp",
+            "version": "^0.20.0"
+          },
+          {
+            "name": "svgo",
+            "version": "^0.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "db6154e20937647495cf40fa2b30d275",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ccdfc31bbbc18977967e0aeee29d533f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.26",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.26",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "76a8c5faea8174f2589c01c62adeb7b2",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "6951a51481897b4848bacf723fde3c06",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios",
+      "packageJson": {
+        "name": "gatsby-starter-stellar",
+        "description": "Gatsby Starter - Stellar by HTML5 UP",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Hunter Chang",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.235"
+          },
+          {
+            "name": "gatsby-image",
+            "version": "^1.0.42"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.39"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^1.0.24"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.23"
+          },
+          {
+            "name": "gatsby-plugin-sharp",
+            "version": "^1.6.41"
+          },
+          {
+            "name": "gatsby-remark-copy-linked-files",
+            "version": "^1.5.30"
+          },
+          {
+            "name": "gatsby-remark-images",
+            "version": "^1.5.56"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.27"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.37"
+          },
+          {
+            "name": "gatsby-transformer-sharp",
+            "version": "^1.6.22"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.5"
+          },
+          {
+            "name": "react-scroll-to-element",
+            "version": "^0.2.0"
+          },
+          {
+            "name": "react-scrollspy",
+            "version": "^3.3.5"
+          },
+          {
+            "name": "react-waypoint",
+            "version": "^8.0.1"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a9248361ab2b0184b7fc421ce5f18fee",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1690ad23fcd75a6c003f026f6c586c68",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Starter - Stellar by HTML5 UP",
+        "author": "Hunter Chang",
+        "description": "A Gatsby.js Starter based on Stellar by HTML5 UP"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-06-30T02:05:16.380Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f6591cd12d53387d17ebd8d3ad1783bc",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1b7165fa9b1ee69c16aa3ec024e30022",
+        "type": "Directory",
+        "description": "Directory \"src/posts\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts",
+      "relativePath": "",
+      "extension": "",
+      "size": 160,
+      "prettySize": "160 B",
+      "modifiedTime": "2018-06-30T01:40:40.966Z",
+      "accessTime": "2018-06-30T02:05:20.498Z",
+      "changeTime": "2018-06-30T01:40:40.966Z",
+      "birthTime": "2018-06-30T01:40:40.963Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src",
+      "base": "posts",
+      "ext": "",
+      "name": "posts",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 5,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768624,
+      "blocks": 0,
+      "atimeMs": 1530324320497.6567,
+      "mtimeMs": 1530322840966.2173,
+      "ctimeMs": 1530322840966.2173,
+      "birthtimeMs": 1530322840963.0881,
+      "atime": "2018-06-30T02:05:20.498Z",
+      "mtime": "2018-06-30T01:40:40.966Z",
+      "ctime": "2018-06-30T01:40:40.966Z",
+      "birthtime": "2018-06-30T01:40:40.963Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3f1f29035b8ab35502257f8384a47c0f",
+        "type": "Directory",
+        "description": "Directory \"src/posts/hello-world\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world",
+      "relativePath": "hello-world",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-06-30T01:40:40.963Z",
+      "accessTime": "2018-06-30T02:05:20.500Z",
+      "changeTime": "2018-06-30T01:40:40.963Z",
+      "birthTime": "2018-06-30T01:40:40.963Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts",
+      "base": "hello-world",
+      "ext": "",
+      "name": "hello-world",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768625,
+      "blocks": 0,
+      "atimeMs": 1530324320499.7852,
+      "mtimeMs": 1530322840963.4285,
+      "ctimeMs": 1530322840963.4285,
+      "birthtimeMs": 1530322840963.15,
+      "atime": "2018-06-30T02:05:20.500Z",
+      "mtime": "2018-06-30T01:40:40.963Z",
+      "ctime": "2018-06-30T01:40:40.963Z",
+      "birthtime": "2018-06-30T01:40:40.963Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "72f490809f57c0b396bce49e9bef4ef8",
+        "type": "Directory",
+        "description": "Directory \"src/posts/my-second-post\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post",
+      "relativePath": "my-second-post",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-06-30T01:40:40.966Z",
+      "accessTime": "2018-06-30T02:05:20.500Z",
+      "changeTime": "2018-06-30T01:40:40.966Z",
+      "birthTime": "2018-06-30T01:40:40.966Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts",
+      "base": "my-second-post",
+      "ext": "",
+      "name": "my-second-post",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768630,
+      "blocks": 0,
+      "atimeMs": 1530324320499.7778,
+      "mtimeMs": 1530322840966.279,
+      "ctimeMs": 1530322840966.279,
+      "birthtimeMs": 1530322840966.2126,
+      "atime": "2018-06-30T02:05:20.500Z",
+      "mtime": "2018-06-30T01:40:40.966Z",
+      "ctime": "2018-06-30T01:40:40.966Z",
+      "birthtime": "2018-06-30T01:40:40.966Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2871e2e07a624f541dadcad61cfae728",
+        "type": "Directory",
+        "description": "Directory \"src/posts/hi-folks\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks",
+      "relativePath": "hi-folks",
+      "extension": "",
+      "size": 96,
+      "prettySize": "96 B",
+      "modifiedTime": "2018-06-30T01:40:40.966Z",
+      "accessTime": "2018-06-30T02:05:20.500Z",
+      "changeTime": "2018-06-30T01:40:40.966Z",
+      "birthTime": "2018-06-30T01:40:40.966Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts",
+      "base": "hi-folks",
+      "ext": "",
+      "name": "hi-folks",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 3,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768628,
+      "blocks": 0,
+      "atimeMs": 1530324320499.7993,
+      "mtimeMs": 1530322840965.9346,
+      "ctimeMs": 1530322840965.9346,
+      "birthtimeMs": 1530322840965.8606,
+      "atime": "2018-06-30T02:05:20.500Z",
+      "mtime": "2018-06-30T01:40:40.966Z",
+      "ctime": "2018-06-30T01:40:40.966Z",
+      "birthtime": "2018-06-30T01:40:40.966Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post/index.md absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post/index.md absPath of file",
+      "children": [
+        "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fef193964fc7c139bea1d17dad270f09",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/my-second-post/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post/index.md",
+      "relativePath": "my-second-post/index.md",
+      "extension": "md",
+      "size": 403,
+      "prettySize": "403 B",
+      "modifiedTime": "2018-06-30T01:40:40.966Z",
+      "accessTime": "2018-06-30T01:40:42.982Z",
+      "changeTime": "2018-06-30T01:40:40.966Z",
+      "birthTime": "2018-06-30T01:40:40.966Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "my-second-post",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768631,
+      "blocks": 8,
+      "atimeMs": 1530322842982.4895,
+      "mtimeMs": 1530322840966.3933,
+      "ctimeMs": 1530322840966.3933,
+      "birthtimeMs": 1530322840966.2747,
+      "atime": "2018-06-30T01:40:42.982Z",
+      "mtime": "2018-06-30T01:40:40.966Z",
+      "ctime": "2018-06-30T01:40:40.966Z",
+      "birthtime": "2018-06-30T01:40:40.966Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/index.md absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/index.md absPath of file",
+      "children": [
+        "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "72293c460c59ab906d3e224a7a2c9ebb",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/hello-world/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/index.md",
+      "relativePath": "hello-world/index.md",
+      "extension": "md",
+      "size": 866,
+      "prettySize": "866 B",
+      "modifiedTime": "2018-06-30T01:40:40.963Z",
+      "accessTime": "2018-06-30T01:40:42.984Z",
+      "changeTime": "2018-06-30T01:40:40.963Z",
+      "birthTime": "2018-06-30T01:40:40.963Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hello-world",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768626,
+      "blocks": 8,
+      "atimeMs": 1530322842983.8547,
+      "mtimeMs": 1530322840963.318,
+      "ctimeMs": 1530322840963.318,
+      "birthtimeMs": 1530322840963.2063,
+      "atime": "2018-06-30T01:40:42.984Z",
+      "mtime": "2018-06-30T01:40:40.963Z",
+      "ctime": "2018-06-30T01:40:40.963Z",
+      "birthtime": "2018-06-30T01:40:40.963Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks/index.md absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks/index.md absPath of file",
+      "children": [
+        "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "02e333427bb8c7b38214ad21a4a27e26",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/hi-folks/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks/index.md",
+      "relativePath": "hi-folks/index.md",
+      "extension": "md",
+      "size": 5495,
+      "prettySize": "5.5 kB",
+      "modifiedTime": "2018-06-30T01:40:40.966Z",
+      "accessTime": "2018-06-30T01:40:42.984Z",
+      "changeTime": "2018-06-30T01:40:40.966Z",
+      "birthTime": "2018-06-30T01:40:40.966Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hi-folks",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768629,
+      "blocks": 16,
+      "atimeMs": 1530322842983.8303,
+      "mtimeMs": 1530322840966.0828,
+      "ctimeMs": 1530322840966.0828,
+      "birthtimeMs": 1530322840965.927,
+      "atime": "2018-06-30T01:40:42.984Z",
+      "mtime": "2018-06-30T01:40:40.966Z",
+      "ctime": "2018-06-30T01:40:40.966Z",
+      "birthtime": "2018-06-30T01:40:40.966Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: My Second Post!\ndate: \"2015-05-06T23:46:37.121Z\"\npath: \"/my-second-post/\"\n---\n\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from chicken eggs, though the taste and texture will be somewhat different, and the egg yolk will be less rich.\"? ([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "4c53e853aa0a0356a1079fc18631c8f1",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "My Second Post!",
+        "date": "2015-05-06T23:46:37.121Z",
+        "path": "/my-second-post/",
+        "_PARENT": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post/index.md absPath of file",
+        "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nWow! I love blogging so much already.\n\nDid you know that \"despite its name, salted duck eggs can also be made from chicken eggs, though the taste and texture will be somewhat different, and the egg yolk will be less rich.\"? ([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))\n\nYeah, I didn't either.\n",
+      "fileAbsolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post/index.md"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Hello World\ndate: \"2015-05-01T22:12:03.284Z\"\npath: \"/hello-world/\"\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6893a0790bfd5b3864d0840b5229560c",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "date": "2015-05-01T22:12:03.284Z",
+        "path": "/hello-world/",
+        "_PARENT": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/index.md absPath of file",
+        "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on [salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n>A salted duck egg is a Chinese preserved food product made by soaking duck eggs in brine, or packing each egg in damp, salted charcoal. In Asian supermarkets, these eggs are sometimes sold covered in a thick layer of salted charcoal paste. The eggs may also be sold with the salted paste removed, wrapped in plastic, and vacuum packed. From the salt curing process, the salted duck eggs have a briny aroma, a gelatin-like egg white and a firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+      "fileAbsolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/index.md"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: New Beginnings\ndate: \"2015-05-28T22:40:32.169Z\"\npath: \"/hi-folks/\"\n---\n\nFar far away, behind the word mountains, far from the countries Vokalia\nand Consonantia, there live the blind texts. Separated they live in\nBookmarksgrove right at the coast of the Semantics, a large language\nocean. A small river named Duden flows by their place and supplies it\nwith the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of\nbad Commas, wild Question Marks and devious Semikoli, but the Little\nBlind Text didn’t listen. She packed her seven versalia, put her initial\ninto the belt and made herself on the way.\n\n*   This however showed weasel\n*   Well uncritical so misled\n    *   this is very interesting\n*   Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she\nhad a last view back on the skyline of her\nhometown _Bookmarksgrove_, the headline of [Alphabet\nVillage](http://google.com) and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith [Longe and Parole](http://google.com) and dragged her into\ntheir agency, where they abused her for their projects again and\nagain. And if she hasn’t been rewritten, then they are still using\nher.\n\n> Far far away, behind the word mountains, far from the countries\n> Vokalia and Consonantia, there live the blind texts. Separated\n> they live in Bookmarksgrove right at the coast of the Semantics, a\n> large language ocean. \n\nIt is a paradisematic country, in which roasted parts of sentences\nfly into your mouth. Even the all-powerful Pointing has no control\nabout the blind texts it is an almost unorthographic life One day\nhowever a small line of blind text by the name of Lorem Ipsum\ndecided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands\nof bad Commas, wild Question Marks and devious Semikoli, but the\nLittle Blind Text didn’t listen. She packed her seven versalia, put\nher initial into the belt and made herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the\nheadline of Alphabet Village and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n> The copy warned the Little Blind Text, that where it came from it\n> would have been rewritten a thousand times and everything that was\n> left from its origin would be the word \"and\" and the Little Blind\n> Text should turn around and return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they\nabused her for their projects again and again. And if she hasn’t\nbeen rewritten, then they are still using her. Far far away, behind\nthe word mountains, far from the countries Vokalia and Consonantia,\nthere live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the\nSemantics, a large language ocean. A small river named Duden flows\nby their place and supplies it with the necessary regelialia. It is\na paradisematic country, in which roasted parts of sentences fly\ninto your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts\nit is an almost unorthographic life One day however a small line of\nblind text by the name of Lorem Ipsum decided to leave for the far\nWorld of Grammar. The Big Oxmox advised her not to do so, because\nthere were thousands of bad Commas, wild Question Marks and devious\nSemikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and\nmade herself on the way. When she reached the first hills of the\nItalic Mountains, she had a last view back on the skyline of her\nhometown Bookmarksgrove, the headline of Alphabet Village and the\nsubline of her own road, the Line Lane. Pityful a rethoric question\nran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it\nwould have been rewritten a thousand times and everything that was\nleft from its origin would be the word \"and\" and the Little Blind\nText should turn around and return to its own, safe country. But\nnothing the copy said could convince her and so it didn’t take long\nuntil a few insidious Copy Writers ambushed her, made her drunk with\nLonge and Parole and dragged her into their agency, where they\nabused her for their projects again and again.\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "b34934d3905e849e2dc9eb4c90d81b43",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "New Beginnings",
+        "date": "2015-05-28T22:40:32.169Z",
+        "path": "/hi-folks/",
+        "_PARENT": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks/index.md absPath of file",
+        "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nFar far away, behind the word mountains, far from the countries Vokalia\nand Consonantia, there live the blind texts. Separated they live in\nBookmarksgrove right at the coast of the Semantics, a large language\nocean. A small river named Duden flows by their place and supplies it\nwith the necessary regelialia.\n\n## On deer horse aboard tritely yikes and much\n\nThe Big Oxmox advised her not to do so, because there were thousands of\nbad Commas, wild Question Marks and devious Semikoli, but the Little\nBlind Text didn’t listen. She packed her seven versalia, put her initial\ninto the belt and made herself on the way.\n\n*   This however showed weasel\n*   Well uncritical so misled\n    *   this is very interesting\n*   Goodness much until that fluid owl\n\nWhen she reached the first hills of the **Italic Mountains**, she\nhad a last view back on the skyline of her\nhometown _Bookmarksgrove_, the headline of [Alphabet\nVillage](http://google.com) and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n### Overlaid the jeepers uselessly much excluding\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith [Longe and Parole](http://google.com) and dragged her into\ntheir agency, where they abused her for their projects again and\nagain. And if she hasn’t been rewritten, then they are still using\nher.\n\n> Far far away, behind the word mountains, far from the countries\n> Vokalia and Consonantia, there live the blind texts. Separated\n> they live in Bookmarksgrove right at the coast of the Semantics, a\n> large language ocean. \n\nIt is a paradisematic country, in which roasted parts of sentences\nfly into your mouth. Even the all-powerful Pointing has no control\nabout the blind texts it is an almost unorthographic life One day\nhowever a small line of blind text by the name of Lorem Ipsum\ndecided to leave for the far World of Grammar.\n\n### According a funnily until pre-set or arrogant well cheerful\n\nThe Big Oxmox advised her not to do so, because there were thousands\nof bad Commas, wild Question Marks and devious Semikoli, but the\nLittle Blind Text didn’t listen. She packed her seven versalia, put\nher initial into the belt and made herself on the way.\n\n1.  So baboon this\n2.  Mounted militant weasel gregariously admonishingly straightly hey\n3.  Dear foresaw hungry and much some overhung\n4.  Rash opossum less because less some amid besides yikes jeepers frenetic impassive fruitlessly shut\n\nWhen she reached the first hills of the Italic Mountains, she had a\nlast view back on the skyline of her hometown Bookmarksgrove, the\nheadline of Alphabet Village and the subline of her own road, the\nLine Lane. Pityful a rethoric question ran over her cheek, then she\ncontinued her way. On her way she met a copy.\n\n> The copy warned the Little Blind Text, that where it came from it\n> would have been rewritten a thousand times and everything that was\n> left from its origin would be the word \"and\" and the Little Blind\n> Text should turn around and return to its own, safe country.\n\nBut nothing the copy said could convince her and so it didn’t take\nlong until a few insidious Copy Writers ambushed her, made her drunk\nwith Longe and Parole and dragged her into their agency, where they\nabused her for their projects again and again. And if she hasn’t\nbeen rewritten, then they are still using her. Far far away, behind\nthe word mountains, far from the countries Vokalia and Consonantia,\nthere live the blind texts.\n\n#### Silent delightfully including because before one up barring chameleon\n\nSeparated they live in Bookmarksgrove right at the coast of the\nSemantics, a large language ocean. A small river named Duden flows\nby their place and supplies it with the necessary regelialia. It is\na paradisematic country, in which roasted parts of sentences fly\ninto your mouth.\n\nEven the all-powerful Pointing has no control about the blind texts\nit is an almost unorthographic life One day however a small line of\nblind text by the name of Lorem Ipsum decided to leave for the far\nWorld of Grammar. The Big Oxmox advised her not to do so, because\nthere were thousands of bad Commas, wild Question Marks and devious\nSemikoli, but the Little Blind Text didn’t listen.\n\n##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along\n\nShe packed her seven versalia, put her initial into the belt and\nmade herself on the way. When she reached the first hills of the\nItalic Mountains, she had a last view back on the skyline of her\nhometown Bookmarksgrove, the headline of Alphabet Village and the\nsubline of her own road, the Line Lane. Pityful a rethoric question\nran over her cheek, then she continued her way. On her way she met a\ncopy.\n\n###### Slapped cozy a that lightheartedly and far\n\nThe copy warned the Little Blind Text, that where it came from it\nwould have been rewritten a thousand times and everything that was\nleft from its origin would be the word \"and\" and the Little Blind\nText should turn around and return to its own, safe country. But\nnothing the copy said could convince her and so it didn’t take long\nuntil a few insidious Copy Writers ambushed her, made her drunk with\nLonge and Parole and dragged her into their agency, where they\nabused her for their projects again and again.\n",
+      "fileAbsolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks/index.md"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/salty_egg.jpg absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/salty_egg.jpg absPath of file",
+      "children": [
+        "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/posts/hello-world/salty_egg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "posts",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/salty_egg.jpg",
+      "relativePath": "hello-world/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2018-06-30T01:40:40.966Z",
+      "accessTime": "2018-06-30T01:40:43.081Z",
+      "changeTime": "2018-06-30T01:40:40.966Z",
+      "birthTime": "2018-06-30T01:40:40.963Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "hello-world",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768627,
+      "blocks": 1344,
+      "atimeMs": 1530322843080.604,
+      "mtimeMs": 1530322840965.7,
+      "ctimeMs": 1530322840965.7,
+      "birthtimeMs": 1530322840963.424,
+      "atime": "2018-06-30T01:40:43.081Z",
+      "mtime": "2018-06-30T01:40:40.966Z",
+      "ctime": "2018-06-30T01:40:40.966Z",
+      "birthtime": "2018-06-30T01:40:40.963Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/salty_egg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/salty_egg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5b1699ef09dd3159a018f58339c6068e",
+        "type": "Directory",
+        "description": "Directory \"src/assets/images\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images",
+      "relativePath": "",
+      "extension": "",
+      "size": 352,
+      "prettySize": "352 B",
+      "modifiedTime": "2018-06-30T01:40:40.953Z",
+      "accessTime": "2018-06-30T02:05:20.546Z",
+      "changeTime": "2018-06-30T01:40:40.953Z",
+      "birthTime": "2018-06-30T01:40:40.949Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets",
+      "base": "images",
+      "ext": "",
+      "name": "images",
+      "relativeDirectory": "..",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 11,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768573,
+      "blocks": 0,
+      "atimeMs": 1530324320545.9705,
+      "mtimeMs": 1530322840952.9656,
+      "ctimeMs": 1530322840952.9656,
+      "birthtimeMs": 1530322840949.4111,
+      "atime": "2018-06-30T02:05:20.546Z",
+      "mtime": "2018-06-30T01:40:40.953Z",
+      "ctime": "2018-06-30T01:40:40.953Z",
+      "birthtime": "2018-06-30T01:40:40.949Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/logo.svg absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/logo.svg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4ca991d368fae6e03b8b82be031f3cea",
+        "mediaType": "image/svg+xml",
+        "type": "File",
+        "description": "File \"src/assets/images/logo.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/logo.svg",
+      "relativePath": "logo.svg",
+      "extension": "svg",
+      "size": 1290,
+      "prettySize": "1.29 kB",
+      "modifiedTime": "2018-06-30T01:40:40.950Z",
+      "accessTime": "2018-06-30T01:40:41.992Z",
+      "changeTime": "2018-06-30T01:40:40.950Z",
+      "birthTime": "2018-06-30T01:40:40.950Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images",
+      "base": "logo.svg",
+      "ext": ".svg",
+      "name": "logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768575,
+      "blocks": 8,
+      "atimeMs": 1530322841992.0305,
+      "mtimeMs": 1530322840949.7317,
+      "ctimeMs": 1530322840949.7317,
+      "birthtimeMs": 1530322840949.6016,
+      "atime": "2018-06-30T01:40:41.992Z",
+      "mtime": "2018-06-30T01:40:40.950Z",
+      "ctime": "2018-06-30T01:40:40.950Z",
+      "birthtime": "2018-06-30T01:40:40.950Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic02.jpg absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic02.jpg absPath of file",
+      "children": [
+        "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic02.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "fd57fd018957fb01d0ba1ed0f80a2b70",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic02.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic02.jpg",
+      "relativePath": "pic02.jpg",
+      "extension": "jpg",
+      "size": 17295,
+      "prettySize": "17.3 kB",
+      "modifiedTime": "2018-06-30T01:40:40.951Z",
+      "accessTime": "2018-06-30T01:40:41.995Z",
+      "changeTime": "2018-06-30T01:40:40.951Z",
+      "birthTime": "2018-06-30T01:40:40.951Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images",
+      "base": "pic02.jpg",
+      "ext": ".jpg",
+      "name": "pic02",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768578,
+      "blocks": 40,
+      "atimeMs": 1530322841994.8408,
+      "mtimeMs": 1530322840951.1316,
+      "ctimeMs": 1530322840951.1316,
+      "birthtimeMs": 1530322840950.7788,
+      "atime": "2018-06-30T01:40:41.995Z",
+      "mtime": "2018-06-30T01:40:40.951Z",
+      "ctime": "2018-06-30T01:40:40.951Z",
+      "birthtime": "2018-06-30T01:40:40.951Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/overlay.png absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/overlay.png absPath of file",
+      "children": [
+        "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/overlay.png absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b930a63a23f31c4dcca568a7ebbac447",
+        "mediaType": "image/png",
+        "type": "File",
+        "description": "File \"src/assets/images/overlay.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/overlay.png",
+      "relativePath": "overlay.png",
+      "extension": "png",
+      "size": 20100,
+      "prettySize": "20.1 kB",
+      "modifiedTime": "2018-06-30T01:40:40.950Z",
+      "accessTime": "2018-06-30T01:40:42.085Z",
+      "changeTime": "2018-06-30T01:40:40.950Z",
+      "birthTime": "2018-06-30T01:40:40.950Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images",
+      "base": "overlay.png",
+      "ext": ".png",
+      "name": "overlay",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768576,
+      "blocks": 40,
+      "atimeMs": 1530322842084.62,
+      "mtimeMs": 1530322840950.227,
+      "ctimeMs": 1530322840950.227,
+      "birthtimeMs": 1530322840949.8296,
+      "atime": "2018-06-30T01:40:42.085Z",
+      "mtime": "2018-06-30T01:40:40.950Z",
+      "ctime": "2018-06-30T01:40:40.950Z",
+      "birthtime": "2018-06-30T01:40:40.950Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic01.jpg absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic01.jpg absPath of file",
+      "children": [
+        "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic01.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "b9959e167f94349be29be7284e7b9112",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic01.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic01.jpg",
+      "relativePath": "pic01.jpg",
+      "extension": "jpg",
+      "size": 17995,
+      "prettySize": "18 kB",
+      "modifiedTime": "2018-06-30T01:40:40.951Z",
+      "accessTime": "2018-06-30T01:40:42.023Z",
+      "changeTime": "2018-06-30T01:40:40.951Z",
+      "birthTime": "2018-06-30T01:40:40.950Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images",
+      "base": "pic01.jpg",
+      "ext": ".jpg",
+      "name": "pic01",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768577,
+      "blocks": 40,
+      "atimeMs": 1530322842023.3584,
+      "mtimeMs": 1530322840950.6113,
+      "ctimeMs": 1530322840950.6113,
+      "birthtimeMs": 1530322840950.3533,
+      "atime": "2018-06-30T01:40:42.023Z",
+      "mtime": "2018-06-30T01:40:40.951Z",
+      "ctime": "2018-06-30T01:40:40.951Z",
+      "birthtime": "2018-06-30T01:40:40.950Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic03.jpg absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic03.jpg absPath of file",
+      "children": [
+        "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic03.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "945f10e24d6f90d675e8291e2e2ca824",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic03.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic03.jpg",
+      "relativePath": "pic03.jpg",
+      "extension": "jpg",
+      "size": 18143,
+      "prettySize": "18.1 kB",
+      "modifiedTime": "2018-06-30T01:40:40.952Z",
+      "accessTime": "2018-06-30T01:40:41.998Z",
+      "changeTime": "2018-06-30T01:40:40.952Z",
+      "birthTime": "2018-06-30T01:40:40.951Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images",
+      "base": "pic03.jpg",
+      "ext": ".jpg",
+      "name": "pic03",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768579,
+      "blocks": 40,
+      "atimeMs": 1530322841997.7712,
+      "mtimeMs": 1530322840951.687,
+      "ctimeMs": 1530322840951.687,
+      "birthtimeMs": 1530322840951.2896,
+      "atime": "2018-06-30T01:40:41.998Z",
+      "mtime": "2018-06-30T01:40:40.952Z",
+      "ctime": "2018-06-30T01:40:40.952Z",
+      "birthtime": "2018-06-30T01:40:40.951Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic05.jpg absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic05.jpg absPath of file",
+      "children": [
+        "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic05.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8eb8d7a3e364dc7210ca09841f703800",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic05.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic05.jpg",
+      "relativePath": "pic05.jpg",
+      "extension": "jpg",
+      "size": 9294,
+      "prettySize": "9.29 kB",
+      "modifiedTime": "2018-06-30T01:40:40.953Z",
+      "accessTime": "2018-06-30T01:40:42.312Z",
+      "changeTime": "2018-06-30T01:40:40.953Z",
+      "birthTime": "2018-06-30T01:40:40.952Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images",
+      "base": "pic05.jpg",
+      "ext": ".jpg",
+      "name": "pic05",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768581,
+      "blocks": 24,
+      "atimeMs": 1530322842311.581,
+      "mtimeMs": 1530322840952.7166,
+      "ctimeMs": 1530322840952.7166,
+      "birthtimeMs": 1530322840952.4534,
+      "atime": "2018-06-30T01:40:42.312Z",
+      "mtime": "2018-06-30T01:40:40.953Z",
+      "ctime": "2018-06-30T01:40:40.953Z",
+      "birthtime": "2018-06-30T01:40:40.952Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic02.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic02.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic02.jpg absPath of file",
+      "internal": {
+        "contentDigest": "fd57fd018957fb01d0ba1ed0f80a2b70",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/overlay.png absPath of file >> ImageSharp": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/overlay.png absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/overlay.png absPath of file",
+      "internal": {
+        "contentDigest": "b930a63a23f31c4dcca568a7ebbac447",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic01.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic01.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic01.jpg absPath of file",
+      "internal": {
+        "contentDigest": "b9959e167f94349be29be7284e7b9112",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic03.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic03.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic03.jpg absPath of file",
+      "internal": {
+        "contentDigest": "945f10e24d6f90d675e8291e2e2ca824",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic04.jpg absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic04.jpg absPath of file",
+      "children": [
+        "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic04.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1609dea61acb9e992d846c586683a226",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic04.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic04.jpg",
+      "relativePath": "pic04.jpg",
+      "extension": "jpg",
+      "size": 63946,
+      "prettySize": "63.9 kB",
+      "modifiedTime": "2018-06-30T01:40:40.952Z",
+      "accessTime": "2018-06-30T01:40:42.138Z",
+      "changeTime": "2018-06-30T01:40:40.952Z",
+      "birthTime": "2018-06-30T01:40:40.952Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images",
+      "base": "pic04.jpg",
+      "ext": ".jpg",
+      "name": "pic04",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768580,
+      "blocks": 128,
+      "atimeMs": 1530322842137.7297,
+      "mtimeMs": 1530322840952.2715,
+      "ctimeMs": 1530322840952.2715,
+      "birthtimeMs": 1530322840951.8535,
+      "atime": "2018-06-30T01:40:42.138Z",
+      "mtime": "2018-06-30T01:40:40.952Z",
+      "ctime": "2018-06-30T01:40:40.952Z",
+      "birthtime": "2018-06-30T01:40:40.952Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic06.jpg absPath of file": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic06.jpg absPath of file",
+      "children": [
+        "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic06.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "51e864e8e56585bcd8427b14e9fc17ed",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/assets/images/pic06.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic06.jpg",
+      "relativePath": "pic06.jpg",
+      "extension": "jpg",
+      "size": 9518,
+      "prettySize": "9.52 kB",
+      "modifiedTime": "2018-06-30T01:40:40.953Z",
+      "accessTime": "2018-06-30T01:40:42.197Z",
+      "changeTime": "2018-06-30T01:40:40.953Z",
+      "birthTime": "2018-06-30T01:40:40.953Z",
+      "root": "/",
+      "dir": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images",
+      "base": "pic06.jpg",
+      "ext": ".jpg",
+      "name": "pic06",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 502,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 4311768582,
+      "blocks": 24,
+      "atimeMs": 1530322842196.751,
+      "mtimeMs": 1530322840953.2327,
+      "ctimeMs": 1530322840953.2327,
+      "birthtimeMs": 1530322840952.9414,
+      "atime": "2018-06-30T01:40:42.197Z",
+      "mtime": "2018-06-30T01:40:40.953Z",
+      "ctime": "2018-06-30T01:40:40.953Z",
+      "birthtime": "2018-06-30T01:40:40.953Z"
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic05.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic05.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic05.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8eb8d7a3e364dc7210ca09841f703800",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic04.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic04.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic04.jpg absPath of file",
+      "internal": {
+        "contentDigest": "1609dea61acb9e992d846c586683a226",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic06.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic06.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/assets/images/pic06.jpg absPath of file",
+      "internal": {
+        "contentDigest": "51e864e8e56585bcd8427b14e9fc17ed",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "SitePage /my-second-post/": {
+      "layout": "index",
+      "jsonName": "my-second-post.json",
+      "internalComponentName": "ComponentMySecondPost",
+      "path": "/my-second-post/",
+      "component": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/templates/blog-post.js",
+      "id": "SitePage /my-second-post/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8466d6fd41939c2f767c789cec5c5ae1",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hello-world/": {
+      "layout": "index",
+      "jsonName": "hello-world.json",
+      "internalComponentName": "ComponentHelloWorld",
+      "path": "/hello-world/",
+      "component": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/templates/blog-post.js",
+      "id": "SitePage /hello-world/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3b22dae9cb62881b39544a57e8aeace0",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hi-folks/": {
+      "layout": "index",
+      "jsonName": "hi-folks.json",
+      "internalComponentName": "ComponentHiFolks",
+      "path": "/hi-folks/",
+      "component": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/templates/blog-post.js",
+      "id": "SitePage /hi-folks/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d5acd1c2a21c9b4f2f10d511f567b05e",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /generic/": {
+      "layout": "index",
+      "jsonName": "generic.json",
+      "internalComponentName": "ComponentGeneric",
+      "path": "/generic/",
+      "component": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/pages/generic.js",
+      "componentChunkName": "component---src-pages-generic-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/pages/generic.js",
+      "id": "SitePage /generic/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9f5daeed3ee0dac1f9f30c9148d0573e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0fd04fee8d498f44344196c7a93ab88e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "4241fb8858ff9039ff757b639e60aa15"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "Site": [
+        "/hi-folks/",
+        "/hello-world/",
+        "/my-second-post/",
+        "/generic/",
+        "/"
+      ],
+      "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hi-folks/index.md absPath of file >>> MarkdownRemark": [
+        "/hi-folks/"
+      ],
+      "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/hello-world/index.md absPath of file >>> MarkdownRemark": [
+        "/hello-world/"
+      ],
+      "/Users/austriker/Documents/web-development/github-repos/lindahlstudios/src/posts/my-second-post/index.md absPath of file >>> MarkdownRemark": [
+        "/my-second-post/"
+      ]
+    },
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}
