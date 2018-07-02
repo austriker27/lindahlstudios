@@ -38,6 +38,7 @@
   "private": true,
   "dependencies": {
     "bulma": "0.7",
-    "feather-icons": "^4.7.0"
+    "feather-icons": "^4.7.0",
+    "smooth-scroll": "^14.2.0"
   }
 }
