@@ -7,9 +7,9 @@ Testimonials Styles
     overflow: hidden;
     margin: 10px auto;
     min-width: 220px;
-    max-width: 310px;
+    // max-width: 310px;
     width: 100%;
-    color: #333;
+    color: $black;
     text-align: left;
     box-shadow: none !important;
     * {
@@ -34,8 +34,8 @@ Testimonials Styles
         position: relative;
         background-color: $smoke-white;
         padding: 30px 50px 65px 50px;
-        font-size: 1.2rem;
-        font-weight: 500;
+        font-size: 1rem;
+        font-weight: 300;
         margin: 0 0 -40px;
         line-height: 1.6em;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
