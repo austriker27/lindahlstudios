@@ -1,16 +1,11 @@
-# Fresh Landing page
-Fresh is a one page landing page starter built by [Css Ninja Studio](https://cssninja.io) . Fresh is licensed under the MIT license.
-
-You can access the demo [here](https://cssninjastudio.github.io./).
+# lindahl studios homepage
+based on fresh built by [Css Ninja Studio](https://cssninja.io). Fresh is licensed under the MIT license.
 
 ## Details
 
-Fresh is developed with the [Bulma css framework](https://bulma.io)
-
-**Version 2.0**
+[Bulma css framework](https://bulma.io)
 
 ## Usage
-Fresh is now a Bulma starter fully bundled with **npm** and **gulp**. Bulma has been upgrade to latest version **0.7**.
 
 * Clone or download the repo
 * Run `npm install`
@@ -29,17 +24,3 @@ Fresh is now a Bulma starter fully bundled with **npm** and **gulp**. Bulma has 
 * Fully automated build and watch process, integration with browser sync
 * Navbar rework since deprecation of `.nav` element in favor of `.navbar`.
 * Optimized responsive display for mobile and tablets.
-
-## Issues
-
-If you've found an issue or a bug, you can report it in the issues section of this repository. Please try to follow these simple guidelines to report your issue:
-
-* Issue definition
-* Expected behaviour
-* Actual behaviour
-* steps to reproduce
-* Already tried fixes (if relevant)
-
-## More
-
-You can find more themes and ressources at  [Css Ninja Studio](https://cssninja.io).
