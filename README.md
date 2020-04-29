@@ -1,26 +1,33 @@
-# lindahl studios homepage
-based on fresh built by [Css Ninja Studio](https://cssninja.io). Fresh is licensed under the MIT license.
+# app-site
+This project is a boilerplate I made for myself because I couldnt find one. It uses the best CSS since frosted wheaties, TailwindCSS, and its partner in crime TailwindUI. Also it has purgeCSS to remove all that nasty unused CSS and runs in Vue, my favorite frontend tooling tool right now. 💪
 
-## Details
+## Yelp
+If you want to yelp like shaggy, or help as the humans say, open a PR and lets all get groovy. 🎉
 
-[Bulma css framework](https://bulma.io)
+## Project setup
+```
+npm install
+```
 
-## Usage
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-* Clone or download the repo
-* Run `npm install`
-* Run `gulp build`
-* Run `gulp default`
+### Compiles and minifies for production
+```
+npm run build
+```
 
-## Major changes
+### Run your tests
+```
+npm run test
+```
 
-* Everything is now handled by gulp and npm
-* Bulma version upgraded to 0.7
-* Bulma source sass is editable (note that the `@widescreen` variable has been set to false)
-* Panel slider library has been removed. Sidebar completely rewritten without any plugin.
-* Removed unused classes and refactored scss
-* Added more scss partials for better code maintainability
-* Introduced Panini templating engine. Learn more about Panini here: https://github.com/zurb/panini
-* Fully automated build and watch process, integration with browser sync
-* Navbar rework since deprecation of `.nav` element in favor of `.navbar`.
-* Optimized responsive display for mobile and tablets.
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
