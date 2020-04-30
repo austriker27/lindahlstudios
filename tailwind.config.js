@@ -12,9 +12,13 @@ module.exports = {
         mono: ['Fira Mono', ...defaultTheme.fontFamily.mono]
       },
     },
+        linearGradientColors: theme => theme('colors'),
+        radialGradientColors: theme => theme('colors'),
+        conicGradientColors: theme => theme('colors'),
   },
   variants: {},
   plugins: [
     require('@tailwindcss/ui'),
+      require('tailwindcss-gradients'),
   ],
 }
