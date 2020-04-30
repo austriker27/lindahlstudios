@@ -1,3 +1,19 @@
 @tailwind base;
+
+@font-face {
+    font-family: 'DankMono';
+    src: url(../fonts/DankMono-Regular.otf) format("otf");
+    src: url(../fonts/DankMono-Regular.ttf) format("ttf");
+}
+
+a {
+    border-bottom-width: 2px;
+    border-color: transparent;
+    transition: border-bottom 0.35s ease-in-out;
+}
+a:hover {
+    border-color: white;
+}
+
 @tailwind components;
 @tailwind utilities;
