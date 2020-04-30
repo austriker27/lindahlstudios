@@ -15,7 +15,7 @@
             - a dynamic duo of two brothers making epic things.
         </p>
         <p class="mt-2">
-            - things include but not limited to rad uncapitalized sentences, global e-commerce companies, small yet epic brands, fancy pants apps for your smartphones, and dynamic modern websites for your small business.
+            - things include but not limited to rad uncapitalized sentences, global e-commerce companies, small yet mighty brands, fancy pants apps for your smartphones, and dynamic modern websites for your small business.
         </p>
     </div>
 
