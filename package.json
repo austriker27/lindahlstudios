@@ -1,5 +1,5 @@
 {
-  "name": "app-site",
+  "name": "lindahl-studios",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,8 @@
     "@tailwindcss/ui": "^0.1.4",
     "core-js": "^3.6.4",
     "tailwindcss": "^1.2.0",
+    "typeface-fira-mono": "0.0.72",
+    "typeface-fira-sans": "0.0.75",
     "vue": "^2.6.11"
   },
   "devDependencies": {

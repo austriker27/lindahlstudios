@@ -2,6 +2,8 @@
 
 @font-face {
     font-family: 'DankMono';
+    font-style: normal;
+    font-weight: 400;
     src: url(../fonts/DankMono-Regular.otf) format("otf");
     src: url(../fonts/DankMono-Regular.ttf) format("ttf");
 }
@@ -9,10 +11,10 @@
 a {
     border-bottom-width: 2px;
     border-color: transparent;
-    transition: border-bottom 0.35s ease-in-out;
+    transition: border-bottom 0.25s ease-in-out;
 }
 a:hover {
-    border-color: white;
+    border-color: #0097ff;
 }
 
 @tailwind components;
