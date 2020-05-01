@@ -1,8 +1,8 @@
 <template>
-<div class="flex flex-col max-w-screen p-4 lg:p-8 h-full justify-center">
+<div class="flex flex-col max-w-screen sm:py-8 md:py-12 h-full justify-around">
 
-  <div class="container mx-auto px-4 sm:px-12 my-6 leading-none max-w-3xl flex justify-center">
-    <h1 class="text-4xl font-black">
+  <div class="container mx-auto px-4 sm:px-12 leading-none max-w-3xl flex justify-center">
+    <h1 class="text-2xl md:text-4xl font-black">
         <a class="flex border-0 hover:opacity-75 items-center text-center" href="http://lindahlstudios.com">
             <img class="w-24 mr-8" alt="our logo, you shouldnt be seeing this" src="@/assets/lindahlstudios-final-bigger-subtitle.png">
         {{ msg }}
@@ -10,7 +10,7 @@
     </h1>
     </div>
 
-    <div class="container mx-auto px-4 sm:px-12 my-6 leading-none max-w-3xl">
+    <div class="container mx-auto px-4 sm:px-12 leading-none max-w-3xl">
         <p>
             - a dynamic duo of two brothers making epic things
         </p>
@@ -19,7 +19,7 @@
         </p>
     </div>
 
-    <div class="container mx-auto px-4 sm:px-12 my-6 leading-none max-w-3xl">
+    <div class="container mx-auto px-4 sm:px-12 leading-none max-w-3xl">
         <div class="my-3">
             <h3 class="font-bold uppercase font-sans mb-3">things we love using:</h3>
             <ul class="flex flex-wrap justify-between list-none p-0">

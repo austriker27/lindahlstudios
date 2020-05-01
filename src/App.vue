@@ -1,5 +1,5 @@
 <template>
-  <div class="text-blue-100 text-1xl font-sans antialiased min-h-screen h-full flex flex-col items-center justify-center p-2 font-mono">
+  <div class="text-blue-100 text-1xl font-sans antialiased min-h-screen h-full flex flex-col justify-between items-center justify-center p-2 font-mono">
       <div class="bg-pattern h-full w-full">
         <HelloWorld msg="lindahl studios"/>
       </div>
