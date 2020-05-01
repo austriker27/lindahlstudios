@@ -24,11 +24,12 @@
             <h3 class="font-bold uppercase font-sans mb-3">things we love using:</h3>
             <ul class="flex flex-wrap justify-between list-none p-0">
             <li class="inline-block mt-0 mb-2 mr-4"><a class="hover:opacity-75" href="https://statamic.com/" target="_blank" rel="noopener">statamic</a></li>
-            <li class="inline-block mt-0 mb-2 mr-4"><a class="hover:opacity-75" href="https://vuejs.org/" target="_blank" rel="noopener">vue</a></li>
+            <li class="inline-block mt-0 mb-2 mr-4"><a class="hover:opacity-75" href="https://usefathom.com/ref/SIUVYE" target="_blank" rel="noopener">fathom analytics</a></li>
+            <li class="inline-block mt-0 mb-2 mr-4"><a class="hover:opacity-75" href="https://vuejs.org/" target="_blank" rel="noopener">vue.js</a></li>
             <li class="inline-block mt-0 mb-2 mr-4"><a class="hover:opacity-75" href="https://laravel.com/" target="_blank" rel="noopener">laravel</a></li>
             <li class="inline-block mt-0 mb-2 mr-4"><a class="hover:opacity-75" href="https://tailwindcss.com/" target="_blank" rel="noopener">tailwindCSS</a></li>
             <li class="inline-block mt-0 mb-2 mr-4"><a class="hover:opacity-75" href="https://gridsome.org/" target="_blank" rel="noopener">gridsome</a></li>
-            <li class="inline-block mt-0 mb-2 mr-4"><a class="hover:opacity-75" href="https://gatsbyjs.org/" target="_blank" rel="noopener">gatsby</a></li>
+            <li class="inline-block mt-0 mb-2 mr-4"><a class="hover:opacity-75" href="https://gatsbyjs.org/" target="_blank" rel="noopener">gatsbyjs</a></li>
             </ul>
         </div>
         <div class="my-3">
