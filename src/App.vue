@@ -1,9 +1,8 @@
 <template>
-  <div class="bg-pattern text-blue-100 text-1xl font-sans antialiased h-full flex flex-col items-center justify-center py-12 bg-gray-900 font-mono">
-    <!-- <div>
-        <img alt="our logo, you shouldnt be seeing this" src="./assets/logo--circle.png">
-    </div> -->
-    <HelloWorld msg="lindahl studios"/>
+  <div class="bg-pattern text-blue-100 text-1xl font-sans antialiased min-h-screen h-full flex flex-col items-center justify-center p-2 font-mono">
+      <div class="bg-gray-900 h-full w-full">
+        <HelloWorld msg="lindahl studios"/>
+      </div>
   </div>
 </template>
 

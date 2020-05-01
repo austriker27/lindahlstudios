@@ -1,5 +1,5 @@
 <template>
-<div class="flex flex-col max-w-screen p-4 lg:p-8">
+<div class="flex flex-col max-w-screen p-4 lg:p-8 h-full justify-center">
 
   <div class="container mx-auto px-4 sm:px-12 my-6 leading-none max-w-3xl flex justify-center">
     <h1 class="text-4xl font-black">
@@ -12,10 +12,10 @@
 
     <div class="container mx-auto px-4 sm:px-12 my-6 leading-none max-w-3xl">
         <p>
-            - a dynamic duo of two brothers making epic things.
+            - a dynamic duo of two brothers making epic things
         </p>
         <p class="mt-2">
-            - things include but not limited to rad uncapitalized sentences, global e-commerce companies, small yet mighty brands, fancy pants apps for your smartphones, and dynamic modern websites for your small business.
+            - things include but not limited to rad uncapitalized sentences, global e-commerce companies, small yet mighty brands, fancy pants apps for your smartphones, and dynamic modern websites for your small business
         </p>
     </div>
 
