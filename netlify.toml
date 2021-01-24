@@ -9,6 +9,7 @@
   force = false
   query = {path = ":path"}
 
+[[redirects]]
   from = "/terms"
   to = "/#/terms"
   status = 301
